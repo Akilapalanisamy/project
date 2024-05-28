@@ -1,0 +1,56 @@
+/* App.css */
+
+body {
+  /* Set background image */
+  background-image: url('https://cdn.pixabay.com/photo/2022/11/08/01/34/background-7577472_640.jpg');
+  /* Set background size to cover the entire screen */
+  background-size: cover;
+  /* Center the background image vertically and horizontally */
+  background-position: center center;
+  /* Fix the background image so it doesn't scroll with the content */
+  background-attachment: fixed;
+  /* Add additional styles as needed */
+  
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App-Home{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJLwgNdIxhfLJZMxRf3dJf1dwNXbAu9hJ65w&s");
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
